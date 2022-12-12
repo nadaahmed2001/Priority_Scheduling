@@ -1,5 +1,5 @@
 # Priority_Scheduling
-A simulation of  cpu scheduling in Operating Systems (using Preemptive and Non_Preemprive Priority schmedulling)
+A simulation of CPU Scheduling in Operating Systems (using Preemptive and Non_Preemprive Priority scheduling)
 <br> This code was written by me and @Hadeer-Adel729
 
 
