@@ -12,9 +12,7 @@ public class Preemptive {
     int TurnAroundTime[];
     int waitingTime[];
     int totalWaitTime = 0;
-
     int totalTurnAroundTime = 0;
-
     int currentTime = 0;
     int totalBurstTime = 0;
     ArrayList<Process> ProcessArray = new ArrayList<>();
