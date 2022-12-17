@@ -12,8 +12,8 @@ public class Process {
 	public int priority;
 	public int outtime;
 	public int intime=-1;//time that the process started excution
-                public int waitingTime;
-                public int TurnaroundTime;
+        public int waitingTime;
+        public int TurnaroundTime;
 
         
         public Process(){}
