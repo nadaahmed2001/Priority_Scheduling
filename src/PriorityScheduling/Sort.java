@@ -1,12 +1,7 @@
-//This Class is for Priority scheduling
 package PriorityScheduling;
 
 import java.util.Comparator;
 
-/**
- *
- * @author Nada
- */
 class Sort implements Comparator<Process> {
     // Used for sorting in ascending order of
     // roll number
@@ -15,7 +10,4 @@ class Sort implements Comparator<Process> {
     {
         return a.arrivalTime - b.arrivalTime;
     }
-
-    
- 
 }
