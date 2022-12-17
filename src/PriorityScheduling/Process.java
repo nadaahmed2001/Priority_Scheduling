@@ -5,7 +5,7 @@ package PriorityScheduling;
 import java.util.Comparator;
 
 public class Process {
-                public int processID;
+        public int processID;
 	public int burstTime;
 	public int tempburstTime;
 	public int arrivalTime;//time the proccess has come(can wait or not)
