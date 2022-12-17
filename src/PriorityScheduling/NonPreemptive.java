@@ -1,33 +1,24 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package PriorityScheduling;
 
 import java.util.Scanner;
 
-/**
- *
- * @author Nada
- */
 public class NonPreemptive {
     
-     int numOfProcess;
-     String process[];
+      int numOfProcess;
+      String process[];
       int burstTime[];
       int priority[];
       int TurnAroundTime[];
-        int waitingTime[] ;
-        int totalWaitTime = 0;
-        int totalTurnAroundTime = 0;
-        double avgWaitingTime;
-        double avgTurnAroundTime;
+      int waitingTime[] ;
+      int totalWaitTime = 0;
+      int totalTurnAroundTime = 0;
+      double avgWaitingTime;
+      double avgTurnAroundTime;
         
    public NonPreemptive(){}     
     public void getInput(){
          System.out.print("Enter Number of Process: ");
-        Scanner input = new Scanner(System.in);
+         Scanner input = new Scanner(System.in);
          numOfProcess = input.nextInt();
         
         //arry of names of process
